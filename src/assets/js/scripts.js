@@ -6,6 +6,14 @@ var AdminLTE = (function() {
         $('body').layout('fix');
         $('body').layout('fixSidebar');
         //$('.notification-menu').toggle();
+        //$('.notification-menu').toggle();
+        //$('.notification-menu').toggle();
+        //$('.notification-menu').toggle();
+        //$('.notification-menu').toggle();
+        //$('.notification-menu').toggle();
+        //$('.notification-menu').toggle();
+        //$('.notification-menu').toggle();
+        //$('.notification-menu').toggle();
       });
     }
   }
