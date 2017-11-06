@@ -5,7 +5,7 @@ var AdminLTE = (function() {
       $(function() {
         $('body').layout('fix');
         $('body').layout('fixSidebar');
-        $('.dropdown').boxWidget('toggle');
+        //$('.notification-menu').toggle();
       });
     }
   }
