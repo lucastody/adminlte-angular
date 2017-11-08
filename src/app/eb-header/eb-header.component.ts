@@ -1,9 +1,5 @@
 import { Component, Injectable, OnInit } from '@angular/core';
-
-@Injectable()
-export class EbHeaderService {
-  nome:String;
-}
+import { EbHeaderService } from './eb-header.service';
 
 @Component({
   selector: 'eb-header',
