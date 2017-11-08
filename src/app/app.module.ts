@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
+import { EbHeaderComponent, EbHeaderService } from './eb-header/eb-header.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EbHeaderComponent
   ],
   imports: [
     BrowserModule,
@@ -15,7 +17,7 @@ import { AppComponent } from './app.component';
       { path: 'starter', component: AppComponent },
     ])
   ],
-  providers: [],
+  providers: [EbHeaderService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
