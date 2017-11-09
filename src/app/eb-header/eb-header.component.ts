@@ -14,6 +14,6 @@ export class EbHeaderComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.nome = this.ebHeaderService.nome;
+    this.nome = this.ebHeaderService.getNome();
   }
 }

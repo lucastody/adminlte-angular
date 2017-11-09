@@ -1,9 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app-routing/app-routing.module';
 
 import { AppComponent } from './app.component';
 import { EbHeaderComponent } from './eb-header/eb-header.component';
+
 import { EbHeaderService } from './eb-header/eb-header.service';
 
 @NgModule({
@@ -13,10 +14,7 @@ import { EbHeaderService } from './eb-header/eb-header.service';
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot([
-      { path: '', redirectTo: 'starter', pathMatch: 'full' },
-      { path: 'starter', component: AppComponent },
-    ])
+    AppRoutingModule
   ],
   providers: [EbHeaderService],
   bootstrap: [AppComponent]

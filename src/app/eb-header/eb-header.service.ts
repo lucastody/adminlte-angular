@@ -8,6 +8,10 @@ export class EbHeaderService {
 
   }
 
+  getNome() {
+    return this.nome;
+  }
+
   setNome(nome) {
     this.nome = nome;
   }
