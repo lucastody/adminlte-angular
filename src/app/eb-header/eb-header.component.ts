@@ -1,5 +1,4 @@
-import { Component, Injectable, OnInit } from '@angular/core';
-import { EbHeaderService } from './eb-header.service';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'eb-header',
@@ -9,11 +8,11 @@ import { EbHeaderService } from './eb-header.service';
 export class EbHeaderComponent implements OnInit {
   nome: String;
 
-  constructor(private ebHeaderService:EbHeaderService) {
+  constructor() {
     
   }
 
   ngOnInit() {
-    this.nome = this.ebHeaderService.getNome();
+    
   }
 }

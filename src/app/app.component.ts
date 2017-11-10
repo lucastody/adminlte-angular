@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { EbHeaderComponent } from './eb-header/eb-header.component';
-import { EbHeaderService } from './eb-header/eb-header.service';
 declare var AdminLTE: any;
 
 @Component({
@@ -10,12 +8,11 @@ declare var AdminLTE: any;
 })
 export class AppComponent implements OnInit {
   
-  constructor(private ebHeaderService:EbHeaderService) {
+  constructor() {
     
   }
 
   ngOnInit() {
     AdminLTE.init();
-    this.ebHeaderService.setNome('João');
   }
 }
