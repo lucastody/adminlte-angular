@@ -9,7 +9,7 @@ declare var AdminLTE: any;
 export class AppComponent implements OnInit {
   
   constructor() {
-    
+    //teste
   }
 
   ngOnInit() {
