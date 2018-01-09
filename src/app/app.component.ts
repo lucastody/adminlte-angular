@@ -10,8 +10,9 @@ declare var AdminLTE: any;
 })
 export class AppComponent implements OnInit {
   teste:string;
+  
   constructor(private ebHeaderService:EbHeaderService) {
-    
+    //teste
   }
 
   ngOnInit() {

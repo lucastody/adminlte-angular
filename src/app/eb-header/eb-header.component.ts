@@ -7,7 +7,9 @@ import { EbHeaderService } from './eb-header.service';
   styles: []
 })
 export class EbHeaderComponent implements OnInit {
-  nome: String;
+  @Input() nome: String;
+  @Input() teste: String;
+  @Input() teste2: String;
 
   constructor(private ebHeaderService:EbHeaderService) {
     
